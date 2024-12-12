@@ -3,7 +3,7 @@
 int main(int argc, char* argv[])
 {
 	std::string romFileName{};
-	int executionSpeed = 1; //Measured in instructions per second
+	int executionSpeed = 1000; //Measured in instructions per second
 	for (int i = 1; i < argc; i++)
 	{
 		if (strcmp(argv[i], "-f") == 0)
